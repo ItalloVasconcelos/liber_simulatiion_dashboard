@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "type": "Pessoa Física",
+      "fullName": "João Silva",
+      "email": "joao@example.com",
+      "cpf": "123.456.789-00",
+      "phone": "11 98765-4321",
+      "password": "senha123"
+    },
+    {
+      "id": 2,
+      "type": "Factoring",
+      "contactName": "Maria Santos",
+      "email": "maria@example.com",
+      "cnpj": "12.345.678/0001-00",
+      "corporateName": "Factoring Ltda.",
+      "companyName": "Factoring Fácil",
+      "phone": "21 99876-5432",
+      "password": "senha456"
+    }
+  ],
+  "payments": [
+    { "id": 1, "amount": 100, "method": "credit card" }
+  ]
+}
