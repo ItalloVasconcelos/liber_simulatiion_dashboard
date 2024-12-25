@@ -19,6 +19,15 @@
       "companyName": "Factoring Fácil",
       "phone": "21 99876-5432",
       "password": "senha456"
+    },
+    {
+      "id": 3,
+      "type": "Pessoa Física",
+      "fullName": "João Costa",
+      "email": "joaoC@example.com",
+      "cpf": "123.123.123.12",
+      "phone": "11 98765-4321",
+      "password": "senha123"
     }
   ],
   "payments": [

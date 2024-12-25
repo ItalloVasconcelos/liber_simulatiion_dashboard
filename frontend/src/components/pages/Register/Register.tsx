@@ -1,12 +1,16 @@
-import React from 'react';
 
-const Register: React.FC = () => {
+import RegisterForm from '../../organisms/RegisterForm';
+import AuthTemplate from "../../templates/AuthTemplate";
+
+
+const LoginPage = () => {
     return (
-        <div>
-            <h1>Cadastro</h1>
-            {/* Formulário de cadastro aqui */}
-        </div>
+
+        <AuthTemplate>
+            <RegisterForm />
+        </AuthTemplate>
+
     );
 };
 
-export default Register;
+export default LoginPage;

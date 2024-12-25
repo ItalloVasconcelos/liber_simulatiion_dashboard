@@ -1,12 +1,13 @@
-import React from 'react';
+import AuthTemplate from '../../templates/AuthTemplate';
+import LoginForm from '../../organisms/LoginForm';
 
-const Login: React.FC = () => {
+
+const LoginPage = () => {
     return (
-        <div>
-            <h1>Login</h1>
-            {/* Formulário de login aqui */}
-        </div>
+        <AuthTemplate>
+            <LoginForm />
+        </AuthTemplate>
     );
 };
 
-export default Login;
+export default LoginPage;

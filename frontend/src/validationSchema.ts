@@ -26,3 +26,8 @@ export const empresaSchema = z.object({
     message: "As senhas devem coincidir.",
     path: ["confirmPassword"],
 });
+
+export const loginPessoaSchema = z.object({
+    cpf: z.string().regex(/^\d{11}$/, "CPF deve conter 11 números."),
+    password: z.string().min(6, "A senha deve conter 10 ou 11 números")
+})

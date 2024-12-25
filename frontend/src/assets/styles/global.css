@@ -1,0 +1,29 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Sora', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f5f5f5; /* Fundo cinza claro */
+    color: #333; /* Texto em tom escuro */
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
